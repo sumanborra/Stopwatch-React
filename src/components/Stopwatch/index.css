@@ -1,0 +1,98 @@
+/* Write CSS here */
+.background-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 60px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-weight: 800;
+  color: #333333;
+}
+@media screen and (max-width: 767px) {
+  .background-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+  .heading{
+    font-size: 28px;
+  }
+}
+.stopwatch-card-container {
+  background-color: #ffffff;
+  padding: 30px;
+  font-family: 'Roboto';
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 12px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px){
+  .stopwatch-card-container{
+    padding: 20px;
+    width: 250px;
+  }
+}
+.image-time {
+  height: 30px;
+  width: 30px;
+}
+.para-timer {
+  font-size: 24px;
+  color: #333333;
+  margin-left: 10px;
+  font-weight: 800;
+}
+@media screen and (max-width: 767px){
+  .image-time{
+    height: 24px;
+    width: 24px;
+  }
+  .para-timer{
+    font-size: 18px;
+  }
+}
+.timer-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para-time-show-minutes-seconds {
+  font-size: 48px;
+  font-weight: 900;
+  color: #333333;
+}
+@media screen and (max-width: 767px){
+  .para-time-show-minutes-seconds{
+    font-size: 32px;
+  }
+}
+.buttn {
+  height: 30px;
+  width: 80px;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  margin: 10px;
+}
+@media screen and (max-width: 767px){
+  .buttn{
+    height: 30px;
+    width: 50px;
+    margin: 8px;
+  }
+}
+.start {
+  background-color: #1db05f;
+}
+.stop {
+  background-color: #ef0d36;
+}
+.reset {
+  background-color: #eaa800;
+}
